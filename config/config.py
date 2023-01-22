@@ -21,7 +21,7 @@ API_ID = int(getenv("API_ID", "18960528"))
 API_HASH = getenv("API_HASH", "cc0fff577b677c9b2b4de5dd5bc5dfd1")
 
 ## Get it from @Botfather in Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", "5647691609:AAE1qRyg0OoT4G20Ccva8WqO-guAvolBtzs")
+BOT_TOKEN = getenv("BOT_TOKEN", "5607218250:AAF5V7dFoSUFof0fjjNQ3PayQvcKXBlI0E0")
 
 # Database to save your chats and stats... Get MongoDB:-  https://telegra.ph/How-To-get-Mongodb-URI-04-06
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://2004:2004@cluster0.vugmi1n.mongodb.net/?retryWrites=true&w=majority")
@@ -40,7 +40,7 @@ SONG_DOWNLOAD_DURATION = int(
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001899951693"))
 
 # A name for your Music bot.
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME","AppleXMusic")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME","SonaXMusic")
 
 # Your User ID.
 OWNER_ID = list(
@@ -124,7 +124,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(
 
 
 # You'll need a Pyrogram String Session for these vars. Generate String from our session generator bot @YukkiStringBot
-STRING1 = getenv("STRING_SESSION", "BQCdWp2SAXzHzlOMSFpM8_sqyB7e0d0asj0473G0_8R3J9XQYExAi5ncd1ShtA7vNG_mgSDMuN_cgP7839EXmONeWCklrFPGCIA_TzPUBxnzify7Qe2jNXrfTMsaMtFN3zP8axyrCI1e7jwHjsx5kc7Wvb1v12QH7ldpa-CGhoQ9VjNOU2kiwKl9MkXOg8Axf0vK_LWFPBhLVSZVWA8eZ8ZAqylqRqYq1BFdplzo6ArkkGgmZCN02hzrJ5CYOhLwzc_8xjrGta7xixU6f3GOp2KG5GVX-FcBzs8qrVWfYA7PfqKTjuOOBn6Pikn4WAWO39kGRh7fVzZML54qFuWouo43AAAAAV5lRtoA")
+STRING1 = getenv("STRING_SESSION", "")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -154,7 +154,7 @@ autoclean = []
 
 
 # Images
-START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/20548ad044a7bfa04d247.jpg")
+START_IMG_URL = getenv("START_IMG_URL", None)
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
